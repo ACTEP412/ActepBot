@@ -45,7 +45,7 @@ const settings = global.settings;
 log(`Получаем данные...`, 'c');
 const userData = await getUserData();
 if(!userData) await exit();
-log('Салам алейкум, ${userData.userName}!');
+log(`Салам алейкум, ${userData.userName}!`, 'm');
 
 if(settings.lotsRaise == true)
     await updateCategoriesData();
