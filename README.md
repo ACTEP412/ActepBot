@@ -28,28 +28,30 @@
 
 <h3 align="center" > Termux (Android, IOS) </h3>
 
-1. Установите **Termux** на свой Android, IOS
-- [Скачать через Google Play](https://play.google.com/store/apps/details?id=com.termux)
-2. Обновите пакеты, выполнив команду apt update && apt upgrade
-3. Выполните команду pkg install nodejs wget unzip
-4. Выполните команду wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main.zip && unzip main.zip
-5. cd ActepBot-main
-6. Выполните команды: npm i, node .
-7. Следуйте инструкциям консоли.
+Termux (Android, IOS)
+Установите Termux на свой Android, IOS
+Скачать через Google Play
+Обновите пакеты, выполнив команду:
+apt update && apt upgrade
 
-## Настройка автовыдачи
+Выполните команду:
+pkg install nodejs wget unzip
 
-Найдите в Telegram бота BotFather с галочкой
+Выполните команду:
+wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main.zip && unzip main.zip
 
-Напишите боту /start
+Выполните команду:
+cd ActepBot-main
 
-/newbot
+Выполните команду: 
+npm i 
 
-Называем как хотим
+Выполните команду:
+node .
 
-Называем как хотим, но на конце должно быть _bot
+Следуйте инструкциям консоли.
 
-Видим токен HTTP API копируем его и используем в виде токена тг бота
+## Вся информация о боте есть в чате telegram (https://t.me/actepbotchat)
 
 ## Контакты
 Если у вас есть какие-либо вопросы, я буду рад ответить.
@@ -59,4 +61,4 @@
 - Telegram - [Actep bot чат](https://t.me/actepbotchat)
 
 
-Оцените данный репозиторий, оставив отзыв мне в лс в телеграмм. Это даёт мне мотивацию развивать данный проект.
+Оцените данный репозиторий, оставив отзыв мне в лс в телеграмм. (@arman66655) Это даёт мне мотивацию развивать данный проект.
