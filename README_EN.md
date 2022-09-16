@@ -28,35 +28,36 @@ Console application for automatic management of your FunPay account
 
 <h3 align="center" > Termux (Android, IOS) </h3>
 
-1. Install **Termux** on your Android, iOS
-- [Download via Google Play](https://play.google.com/store/apps/details?id=com.termux )
-2. Update the packages by running the apt update && apt upgrade command
-3. Run the command pkg install nodejs wget unzip
-4. Run the command wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main.zip && unzip main.zip && unzip main.zip .zip && unzip main.zip
-5. Navigate to the project folder by running the cd ActepBot-main command
-6. Run the commands: npm i, node .
-7. Follow the console instructions.
+Termux (Android, IOS)
+Install Termux on your Android, iOS
+Update the packages by running the command:
+apt update && apt upgrade
 
-## Setting up auto-output
+Run the command:
+pkg install nodejs wget unzip
 
-Find the BotFather bot with a tick in Telegram
+Run the command:
+wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main .zip && unzip main.zip
 
-Write to the bot /start
+Run the command:
+cd ActepBot-main
 
-/newbot
+Run the command:
+npm i
 
-We call it what we want
+Run the command:
+node .
 
-We call it whatever we want, but at the end there should be _bot
+Follow the console instructions.
 
-We see the HTTP API token, copy it and use it as a tg bot token
+## All information about the bot is in the telegram channel (https://t.me/actepbot )
 
 ## Contacts
 If you have any questions, I will be happy to answer.
 
 Quick reply:
 
-- Telegram - [Actep bot chat](https://t.me/actepbotchat)
+- Telegram - [Actep bot chat] (https://t.me/actepbotchat )
 
 
-Rate this repository by leaving a review to me in the bos in telegram. This gives me motivation to develop this project.
+Rate this repository by leaving a review to me in the bos in telegram. (@arman66655) This gives me motivation to develop this project.
