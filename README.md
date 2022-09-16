@@ -32,8 +32,8 @@
 - [Скачать через Google Play](https://play.google.com/store/apps/details?id=com.termux)
 2. Обновите пакеты, выполнив команду apt update && apt upgrade
 3. Выполните команду pkg install nodejs wget unzip
-4. Выполните команду wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main.zip && unzip main.zip && unzip main.zip
-5. Перейдите в папку проекта, выполнив команду cd ActepBot-main
+4. Выполните команду wget https://github.com/ACTEP412/ActepBot/archive/refs/heads/main.zip && unzip main.zip
+5. cd ActepBot-main
 6. Выполните команды: npm i, node .
 7. Следуйте инструкциям консоли.
 
