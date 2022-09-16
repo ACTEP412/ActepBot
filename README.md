@@ -30,7 +30,6 @@
 
 Termux (Android, IOS)
 Установите Termux на свой Android, IOS
-Скачать через Google Play
 Обновите пакеты, выполнив команду:
 apt update && apt upgrade
 
