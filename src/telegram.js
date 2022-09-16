@@ -73,7 +73,7 @@ class TelegramBot {
                 return;
             }
 
-            if(msg == 'Добавить товар ') {
+            if(msg == 'Добавить товар') {
                 this.addProduct(ctx);
                 return;
             }
@@ -148,8 +148,8 @@ class TelegramBot {
 
     getEditGoodsKeyboard() {
         const keyboard = Keyboard.make([
-            ['Добавить товар ', 'Удалить товар'],
-            ['Получить файл автовыдачи'],
+            ['Добавить товар', 'Удалить товар'],
+            ['Получить файл автовыдачи для редактирования'],
             ['Назад']
         ]);
 
